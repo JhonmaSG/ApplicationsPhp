@@ -1,0 +1,22 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13/02/2024, 4:19:00 p. m.
+    Author     : Estudiante
+*/
+
+input:focus {
+    borde: 2px solid #009;
+    background: #CF9;
+}
+
+body{
+    text-align: center;
+}
+
+fieldset{
+    width: 30%;
+    margin: auto;
+}
