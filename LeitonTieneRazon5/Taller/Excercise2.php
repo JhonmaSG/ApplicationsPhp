@@ -10,6 +10,7 @@
         cada letra.
         Por ejemplo: "Hola, tú" se escribiria "H o l a, t u"-->
         <form method="post">
+            <h2>Serapacion de letras</h2>
             Digite una frase: <input type="text" name="oracion"/> <br><br>
             <input type="submit" name="enviar" value="Procesar"><br><br> 
         </form>
