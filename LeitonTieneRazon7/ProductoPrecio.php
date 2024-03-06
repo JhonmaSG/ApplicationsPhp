@@ -27,7 +27,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
                 //Agregar los datos del producto al arreglo del productos en al sesión
                 $_SESSION['productos'][] = array('nombre' => $nombreProducto,
                     'precio' => $PrecioProducto);
-                echo "<p>Por favor, Ingrese un número válido.</p>";
+                //echo "<p>Por favor, Ingrese un número válido.</p>";
             }
         }
         //Si existe los productos asignelo, sino vaciar
