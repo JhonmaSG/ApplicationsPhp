@@ -1,0 +1,19 @@
+input:focus {
+    border: 2px solid #009;
+    background: #CF9
+}
+fieldset {
+    width: 55%;
+}
+#centrado{
+    position:absolute;
+    width:1150px;
+    height:400px;
+    top:50%;
+    left:50%;
+    margin-top:-300px;
+    margin-left:-300px;
+}
+table {
+    table-layout: auto;
+}
