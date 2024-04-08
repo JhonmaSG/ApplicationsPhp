@@ -9,5 +9,8 @@
  -<b>LeitonTieneRazon5</b>: Functions by Php, Excercise with words and vowels using for and Foreach, Excercise Taller Practice<br>
  -<b>LeitonTieneRazon6</b>: Arrays <br>
  -<b>LeitonTieneRazon7</b>: Arrays, SESSION and SERVER <br>
- -<b>LeitonTieneRazon8</b>: Incomming <br>
- -<b>LeitonTieneRazon9</b>: Incomming <br>
+
+<br>
+ 
+ -<b>2_LeitonTieneRazon1</b>: Data Transfering <br>
+ -<b>2_LeitonTieneRazon2</b>: Introduction POO <br>
