@@ -1,0 +1,13 @@
+#contenedor{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #D0D6D3;
+    border-radius: 10px;
+    width: 400px;
+    height: 260px;
+    padding: 1%;
+}
+.centrar{
+    text-align: center;
+}
+
