@@ -14,3 +14,7 @@
  
  -<b>2_LeitonTieneRazon1</b>: Data Transfering <br>
  -<b>2_LeitonTieneRazon2</b>: Introduction POO <br>
+ -<b>2_LeitonTieneRazon3</b>: Plantillas <br>
+ -<b>2_LeitonTieneRazon4</b>: Php with SQL introduction <br>
+ -<b>2_LeitonTieneRazon5</b>: CRUD with SQL <br>
+ -<b>2_LeitonTieneRazon6</b>: Login/create Count Php <br>
