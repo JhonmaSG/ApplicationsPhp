@@ -2,8 +2,8 @@
 
 try {
     require("ConexionBDPDO.php");
-    $tabla_frutas = "CREATE TABLE IF NOT EXISTS frutas (nombre VARCHAR(15) NOT NULL,  
-                         cantidad INT NOT NULL)";
+    $tabla_frutas = "CREATE TABLE IF NOT EXISTS frutas (nombre VARCHAR(15) NOT NULL,
+cantidad INT NOT NULL)";
     $conexion->exec($tabla_frutas);
     echo ("Sentencia ejecutada (PDO):<br/>" . $tabla_frutas);
     $insertar_registro = $conexion->prepare("insert into frutas(nombre,cantidad) values(?,?);");
@@ -46,5 +46,6 @@ try {
 } catch (PDOException $e) {
     echo "Error....." . $e->getMessage();
 }
-//$conexion = null;
-?> 
+$conexion = null;
+?>
+

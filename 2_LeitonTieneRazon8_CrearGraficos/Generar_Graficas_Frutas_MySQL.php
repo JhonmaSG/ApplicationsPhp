@@ -10,7 +10,6 @@ elseif (isset($_POST['graficobarra']))
     $tipo = 'bars';
 elseif (isset($_POST['graficopie']))
     $tipo = 'pie';
-
 try {
     $seleccion = "Select nombre,sum(cantidad) as alias from frutas group by nombre";
     $consultar_registros = $conexion->prepare($seleccion);
@@ -19,11 +18,10 @@ try {
     foreach ($resultado as $fila) {
         $datos[] = array($fila[0], $fila[1]);
     }
-    //$conexion = null;
+    $conexion = null;
 } catch (PDOException $e) {
     echo ("Error....:" . $e->getMessage());
 }
-
 $plot = new PHPlot(900, 700);
 $plot->SetImageBorderType('plain');
 $plot->SetPlotType($tipo);
@@ -40,6 +38,7 @@ if ($tipo == 'pie') {
     $plot->SetXTitle('Frutas');
     $plot->SetYTitle('Cantidad');
 }
-//$conexion = null;
+$conexion = null;
 $plot->DrawGraph();
-?> 
+?>
+
