@@ -1,7 +1,44 @@
 <?php
 
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
- */
+class Numero {
+
+    protected $valor;
+    public function __construct($valor) {
+        $this->valor = $valor;
+    }
+
+    public function operacionNumeros() {
+        // Este método debería ser implementado en las clases hijas
+        return null;
+    }
+
+}
+
+class NumeroBinario extends Numero {
+
+    public function operacionNumeros() {
+        // Convertir el número a binario
+        return decbin($this->valor);
+    }
+
+}
+
+class NumeroOctal extends Numero {
+
+    public function operacionNumeros() {
+        // Convertir el número a octal
+        return decoct($this->valor);
+    }
+
+}
+
+class NumeroDecimal extends Numero {
+
+    public function operacionNumeros() {
+        // Convertir el número a decimal (sin necesidad de conversión)
+        return $this->valor;
+    }
+
+}
+?>
 
